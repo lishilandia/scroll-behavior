@@ -1,0 +1,87 @@
+*body {
+  box-sizing: border;
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav a {
+  position: absolute;
+  width: 206px;
+  height: 145px;
+  top: 0px;
+}
+
+nav a,
+section {
+  font-family: roboto;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rectangule1 {
+  background: #a7f9f9;
+  left: 0px;
+}
+
+.rectangule2 {
+  background: #f3b3b3;
+  left: 206px;
+}
+
+.rectangule3 {
+  background-color: #ffe485;
+  left: 412px;
+}
+
+.rectangule4 {
+  background-color: #88f893;
+  left: 618px;
+}
+
+#rectangule1a {
+  position: absolute;
+  width: 824px;
+  height: 285px;
+  left: 0px;
+  top: 170px;
+  background: #a7f9f9;
+}
+
+#rectangule2b {
+  position: absolute;
+  width: 824px;
+  height: 383px;
+  left: 0px;
+  top: 455px;
+  background: #f3b3b3;
+}
+#rectangule3c {
+  position: absolute;
+  width: 824px;
+  height: 514px;
+  left: 0px;
+  top: 838px;
+  background: #ffe485;
+}
+
+#rectangule4d {
+  position: absolute;
+  width: 824px;
+  height: 514px;
+  left: 0px;
+  top: 1352px;
+  background: #88f893;
+}
+
+nav > a:hover {
+  color: purple;
+}
